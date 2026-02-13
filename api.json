@@ -1,10 +1,8 @@
 {
-  "category": "ARCHAEOLOGICAL_ARTIFACT",
-
   "meta": {
     "version": "1.0.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-01-14",
+    "last_updated": "2026-02-13",
     "repository": "https://github.com/wyrdness/antikythera-mechanism",
     "maintainers": [
       {
@@ -18,660 +16,111 @@
       "content": "CC-BY-4.0"
     }
   },
-
   "phenomenon": {
     "id": "antikythera-mechanism",
     "name": "Antikythera Mechanism",
-    "aliases": [
-      {
-        "name": "Antikythera Device",
-        "language": "English",
-        "meaning": "Alternative common name"
-      },
-      {
-        "name": "First Computer",
-        "language": "English",
-        "meaning": "Popular description as ancient analog computer"
-      },
-      {
-        "name": "Ancient Greek Computer",
-        "language": "English",
-        "meaning": "Descriptive name emphasizing computational nature"
-      }
-    ],
-    "category": "ARCHAEOLOGICAL_ARTIFACT",
-    "subcategory": "Ancient Technology",
+    "aliases": [],
+    "category": "|_ARCHAEOLOGICAL_ARTIFACT_|",
+    "subcategory": "Unknown",
     "tags": [
-      "ancient-greece",
-      "hellenistic-period",
-      "astronomy",
-      "mechanical-engineering",
-      "analog-computer",
-      "bronze-age-technology",
-      "shipwreck",
-      "archaeological-discovery",
-      "scientific-artifact"
+      "folklore",
+      "mythology"
     ],
-    "status": "explained",
+    "status": "documented",
     "description": {
-      "summary": "An ancient Greek analog computer from approximately 100 BCE, recovered from a shipwreck off Antikythera island in 1901. This complex geared mechanism was used for astronomical calculations and represents the most sophisticated mechanical device from the ancient world.",
-      "full": "The Antikythera Mechanism is a remarkable artifact from ancient Greece, dating to approximately 100 BCE. Discovered in 1901 in a shipwreck off the coast of Antikythera island, it consists of at least 30 meshing bronze gears housed in a wooden frame. The device functioned as an analog computer to predict astronomical positions, eclipses, and calendrical cycles. While initially mysterious, extensive scientific study using X-ray tomography, surface scanning, and reconstruction has revealed its sophisticated engineering and purpose. The mechanism demonstrates advanced Hellenistic knowledge of astronomy and mechanical engineering, challenging earlier assumptions about ancient technological capabilities while fitting within the documented scientific achievements of the period."
+      "summary": "The **Antikythera Mechanism** is an ancient Greek analog computer recovered from a shipwreck off the coast of Antikythera island in 1901.",
+      "full": "The **Antikythera Mechanism** is an ancient Greek analog computer recovered from a shipwreck off the coast of Antikythera island in 1901. Dating to approximately 100 BCE, this extraordinary device consists of at least 30 meshing bronze gears housed in a wooden case, designed to calculate and display astronomical positions and predict eclipses."
     },
     "etymology": {
-      "origin": "Named after Antikythera (Αντικύθηρα), the Greek island near which it was discovered",
-      "meaning": "Antikythera means 'opposite Kythera' in Greek, referring to the island's location",
-      "discovery_date": "1901"
+      "origin": "Unknown",
+      "meaning": "To be documented",
+      "first_use": "Unknown"
     }
   },
-
   "classification": {
     "taxonomy": {
-      "category": "ARCHAEOLOGICAL_ARTIFACT",
-      "type": "Mechanical Device",
-      "subtype": "Analog Computer",
-      "variant": "Hellenistic Astronomical Calculator"
+      "category": "|_ARCHAEOLOGICAL_ARTIFACT_|",
+      "type": "Unknown",
+      "subtype": "Unknown",
+      "variant": "Unknown"
     },
-    "related_phenomena": [
-      {
-        "id": "astrolabes",
-        "name": "Ancient Astrolabes",
-        "relationship": "similar_technology",
-        "description": "Later astronomical instruments with related functions"
-      },
-      {
-        "id": "orrery",
-        "name": "Orreries",
-        "relationship": "conceptual_descendant",
-        "description": "Mechanical models of solar system motion"
-      },
-      {
-        "id": "ancient-automata",
-        "name": "Ancient Greek Automata",
-        "relationship": "contemporary_technology",
-        "description": "Other complex Hellenistic mechanical devices described by Hero of Alexandria"
-      }
-    ]
+    "related_phenomena": []
   },
-
   "characteristics": {
     "physical": {
-      "dimensions": {
-        "height": 0.34,
-        "width": 0.18,
-        "depth": 0.09,
-        "unit": "meters",
-        "notes": "Approximate original dimensions; artifact is fragmented"
-      },
-      "weight": {
-        "current": 4.0,
-        "unit": "kilograms",
-        "notes": "Current weight of surviving fragments"
-      },
-      "material": [
-        "Bronze (gears and plates)",
-        "Wood (housing, now lost)",
-        "Possibly tin-lead alloy for inscriptions"
-      ],
-      "features": [
-        {
-          "feature": "Gear system",
-          "description": "At least 30 meshing bronze gears with triangular teeth",
-          "significance": "Earliest known use of complex gear trains"
-        },
-        {
-          "feature": "Differential gear",
-          "description": "Epicyclic gearing system",
-          "significance": "Predates next known differential gear by 1,500 years"
-        },
-        {
-          "feature": "Inscriptions",
-          "description": "Over 3,000 characters of Greek text",
-          "significance": "Provides operating instructions and astronomical data"
-        },
-        {
-          "feature": "Front dial",
-          "description": "Zodiac calendar with Egyptian calendar ring",
-          "significance": "Display for solar and lunar positions"
-        },
-        {
-          "feature": "Rear dials",
-          "description": "Spiral dials for eclipse prediction and calendrical cycles",
-          "significance": "Metonic and Saros cycle calculators"
-        }
-      ],
-      "condition": "Highly corroded and fragmented; approximately 82 fragments survive"
+      "features": [],
+      "morphology": "See README.md for detailed physical description"
     },
-    "functions": [
-      {
-        "function": "Solar position tracking",
-        "description": "Calculated position of Sun through zodiac",
-        "evidence": "Front dial mechanism and inscriptions"
-      },
-      {
-        "function": "Lunar position tracking",
-        "description": "Calculated Moon's position and phase",
-        "evidence": "Front dial with lunar pointer"
-      },
-      {
-        "function": "Planetary position prediction",
-        "description": "Tracked positions of five known planets (Mercury, Venus, Mars, Jupiter, Saturn)",
-        "evidence": "Gear ratios and inscriptions suggest planetary display"
-      },
-      {
-        "function": "Eclipse prediction",
-        "description": "Predicted solar and lunar eclipses using Saros cycle",
-        "evidence": "Rear spiral dial with eclipse glyphs"
-      },
-      {
-        "function": "Calendar correlation",
-        "description": "Synchronized multiple ancient calendar systems",
-        "evidence": "Egyptian calendar ring and Games dial"
-      },
-      {
-        "function": "Olympic Games timing",
-        "description": "Tracked dates of Panhellenic Games",
-        "evidence": "Games dial on rear face"
-      }
-    ],
-    "technical_specifications": {
-      "gear_count": {
-        "confirmed": 30,
-        "estimated_original": 37,
-        "notes": "Some gears lost or not preserved"
-      },
-      "gear_ratios": [
-        {
-          "purpose": "Solar year",
-          "ratio": "365/360 approximation"
-        },
-        {
-          "purpose": "Metonic cycle",
-          "ratio": "19 solar years = 235 lunar months"
-        },
-        {
-          "purpose": "Saros cycle",
-          "ratio": "223 lunar months for eclipse prediction"
-        }
-      ],
-      "precision": "Gear teeth manufactured to sub-millimeter precision",
-      "operation": "Manual input via hand crank; pointer outputs on dials"
+    "abilities": [],
+    "behavior": {
+      "activity_period": "unknown",
+      "disposition": "unknown",
+      "habitat_preference": []
     }
   },
-
-  "discovery": {
-    "location": {
-      "site": "Antikythera shipwreck",
-      "description": "Roman-era shipwreck off Antikythera island",
-      "country": "Greece",
-      "region": "Between Kythera and Crete",
-      "coordinates": {
-        "latitude": 35.8683,
-        "longitude": 23.3078,
-        "precision": "approximate"
-      },
-      "depth": "42-50 meters"
+  "distribution": {
+    "range": {
+      "description": "Unknown",
+      "continents": [],
+      "countries": [],
+      "regions": []
     },
-    "discovery_date": {
-      "date": "1901-05-17",
-      "precision": "exact"
-    },
-    "discoverers": [
-      {
-        "name": "Elias Stadiatis",
-        "role": "Sponge diver",
-        "notes": "First to report ancient artifacts at wreck site"
-      },
-      {
-        "name": "Valerios Stais",
-        "role": "Archaeologist",
-        "notes": "First to recognize mechanism as mechanical device in 1902"
+    "hotspots": [],
+    "temporal": {
+      "first_recorded": {
+        "date": "Unknown",
+        "circa": true,
+        "source": "Traditional folklore"
       }
-    ],
-    "recovery": {
-      "date_range": "1900-1901",
-      "method": "Sponge diving expedition",
-      "expedition_leader": "Captain Dimitrios Kondos",
-      "government_involvement": "Greek government supported expedition",
-      "additional_finds": [
-        "Bronze statues",
-        "Marble sculptures",
-        "Pottery",
-        "Glass vessels",
-        "Coins (dated to 76-67 BCE)"
-      ]
     }
   },
-
-  "dating": {
-    "construction_date": {
-      "estimate": "150-100 BCE",
-      "precision": "approximate",
-      "circa": true,
-      "method": "Multiple dating techniques"
-    },
-    "dating_methods": [
-      {
-        "method": "Coin evidence",
-        "result": "Shipwreck occurred between 70-60 BCE",
-        "notes": "Latest coins date to 76-67 BCE"
-      },
-      {
-        "method": "Pottery analysis",
-        "result": "Consistent with 1st century BCE",
-        "notes": "Amphora types indicate late Hellenistic period"
-      },
-      {
-        "method": "Astronomical data",
-        "result": "Calculations calibrated for epoch around 205 BCE",
-        "notes": "Start date on Metonic dial"
-      },
-      {
-        "method": "Inscription analysis",
-        "result": "Letter forms consistent with late Hellenistic period",
-        "notes": "Greek script style indicates 2nd-1st century BCE"
-      },
-      {
-        "method": "Games calendar",
-        "result": "Matches calendar from northwestern Greece or Syracuse",
-        "notes": "Suggests Corinthian or Sicilian origin"
-      }
-    ],
-    "origin_theories": {
-      "likely_origin": "Rhodes or Syracuse",
-      "evidence": [
-        "Hipparchus worked in Rhodes (~150 BCE)",
-        "Archimedes worked in Syracuse (died 212 BCE)",
-        "Games calendar matches Corinthian colonies",
-        "Level of sophistication consistent with major scientific centers"
-      ]
-    }
-  },
-
   "history": {
-    "ancient_context": {
-      "period": "Hellenistic Period",
-      "cultural_context": "Era of advanced Greek mathematics, astronomy, and engineering",
-      "contemporary_scientists": [
-        "Hipparchus of Rhodes (190-120 BCE) - astronomer",
-        "Archimedes of Syracuse (287-212 BCE) - engineer and mathematician",
-        "Ctesibius of Alexandria (285-222 BCE) - inventor",
-        "Posidonius (135-51 BCE) - philosopher and scientist"
-      ],
-      "technological_context": "Period known for sophisticated automata, water clocks, and astronomical instruments"
+    "origins": {
+      "cultural_roots": "Unknown",
+      "earliest_accounts": "See README.md for historical details",
+      "folklore_connections": "Unknown"
     },
-    "timeline": [
-      {
-        "date": "~150-100 BCE",
-        "event": "Construction of Antikythera Mechanism",
-        "significance": "Device created in major Hellenistic scientific center",
-        "source": "Scientific analysis"
-      },
-      {
-        "date": "~70-60 BCE",
-        "event": "Shipwreck off Antikythera",
-        "significance": "Mechanism lost at sea, preserved in sediment",
-        "source": "Coin and shipwreck dating"
-      },
-      {
-        "date": "1900-10",
-        "event": "Sponge divers discover wreck",
-        "significance": "Site identified; salvage operations begin",
-        "source": "Historical records"
-      },
-      {
-        "date": "1901-05-17",
-        "event": "Mechanism recovered",
-        "significance": "Artifact brought to surface among other treasures",
-        "source": "Archaeological records"
-      },
-      {
-        "date": "1902",
-        "event": "Valerios Stais recognizes gears",
-        "significance": "First identification as mechanical device",
-        "source": "Museum records"
-      },
-      {
-        "date": "1951",
-        "event": "Derek de Solla Price begins study",
-        "significance": "First systematic scientific investigation",
-        "source": "Price's publications"
-      },
-      {
-        "date": "1974",
-        "event": "X-ray imaging reveals internal structure",
-        "significance": "First detailed view of gear arrangements",
-        "source": "Price (1974) Gears from the Greeks"
-      },
-      {
-        "date": "2005",
-        "event": "Advanced CT scanning",
-        "significance": "Antikythera Mechanism Research Project reveals previously hidden details",
-        "source": "Nature journal publications"
-      },
-      {
-        "date": "2008-2021",
-        "event": "Ongoing analysis and reconstruction",
-        "significance": "Continuous refinement of understanding through new techniques",
-        "source": "Multiple scientific publications"
-      }
-    ],
-    "modern_study": "The mechanism has been studied using progressively advanced techniques including X-radiography, linear tomography, computed tomography, and polynomial texture mapping. These studies have revealed inscriptions, gear arrangements, and functions previously unknown."
+    "timeline": []
   },
-
-  "scientific_understanding": {
-    "current_status": "Well understood",
-    "key_discoveries": [
-      {
-        "discovery": "Gear train structure",
-        "year": "1974",
-        "researchers": "Derek de Solla Price",
-        "significance": "Revealed complexity of internal mechanisms"
-      },
-      {
-        "discovery": "Eclipse prediction function",
-        "year": "2005-2006",
-        "researchers": "Antikythera Mechanism Research Project",
-        "significance": "Understood Saros dial purpose"
-      },
-      {
-        "discovery": "Full inscription text",
-        "year": "2016",
-        "researchers": "Alexander Jones and team",
-        "significance": "Operating manual and astronomical data revealed"
-      },
-      {
-        "discovery": "Planetary display reconstruction",
-        "year": "2021",
-        "researchers": "UCL team",
-        "significance": "Proposed complete front display with all planets"
-      }
-    ],
-    "open_questions": [
-      "Complete original appearance and housing design",
-      "Exact number and arrangement of lost gears",
-      "Precise method of planetary motion simulation",
-      "Identity of maker(s) and workshop"
-    ],
-    "scientific_consensus": {
-      "date": "~100 BCE (within decades)",
-      "purpose": "Astronomical calculator and teaching instrument",
-      "origin": "Major Hellenistic scientific center (likely Rhodes or Syracuse)",
-      "technology": "Represents pinnacle of ancient Greek mechanical engineering",
-      "uniqueness": "No similar devices survive, but ancient texts reference comparable mechanisms",
-      "capability_assessment": "Advanced but within documented Hellenistic mathematical and engineering knowledge"
-    }
+  "sightings": {
+    "statistics": {
+      "total_documented": 0,
+      "verified": 0,
+      "disputed": 0,
+      "debunked": 0
+    },
+    "notable": [],
+    "database_path": "./sightings/"
   },
-
   "evidence": {
-    "physical_remains": [
-      {
-        "type": "Bronze fragments",
-        "description": "82 surviving fragments containing gears, plates, and inscriptions",
-        "location": "National Archaeological Museum, Athens",
-        "condition": "Heavily corroded; consolidated and conserved",
-        "accessibility": "On display; high-resolution scans available to researchers"
-      }
-    ],
-    "documentation": [
-      {
-        "type": "X-ray tomography",
-        "description": "Complete 3D CT scans at micron resolution",
-        "year": "2005",
-        "institution": "X-Tek Systems UK / Antikythera Mechanism Research Project"
-      },
-      {
-        "type": "Polynomial Texture Mapping",
-        "description": "Reveals surface details and inscriptions",
-        "year": "2005-2006",
-        "institution": "Hewlett-Packard"
-      },
-      {
-        "type": "Digital reconstruction",
-        "description": "3D models of gear arrangements and mechanisms",
-        "year": "2006-present",
-        "institution": "Multiple research teams"
-      }
-    ],
-    "working_replicas": [
-      {
-        "builder": "Michael Wright",
-        "year": "2006",
-        "notes": "Demonstrates full functionality"
-      },
-      {
-        "builder": "Tony Freeth and team",
-        "year": "2010",
-        "notes": "Based on CT scan data"
-      },
-      {
-        "builder": "Various makers",
-        "year": "2010-present",
-        "notes": "Multiple functional replicas confirm understanding"
-      }
-    ]
+    "physical": [],
+    "photographic": [],
+    "video": [],
+    "audio": [],
+    "trace": []
   },
-
   "theories": {
-    "historical_context": [
-      {
-        "theory": "Archimedes connection",
-        "description": "Device may derive from designs by Archimedes or his school",
-        "evidence": [
-          "Cicero describes similar device made by Archimedes",
-          "Level of sophistication consistent with Syracusan engineering",
-          "Archimedes known to have made planetary models"
-        ],
-        "proponents": ["Derek de Solla Price", "Michael Wright"],
-        "status": "Plausible but unproven"
-      },
-      {
-        "theory": "Hipparchus connection",
-        "description": "Astronomical data reflects work of Hipparchus of Rhodes",
-        "evidence": [
-          "Lunar theory matches Hipparchus's observations",
-          "Rhodes was major scientific center in period",
-          "Device date consistent with Hipparchus's era"
-        ],
-        "proponents": ["James Evans", "Tony Freeth"],
-        "status": "Strong circumstantial evidence"
-      },
-      {
-        "theory": "Posidonius workshop",
-        "description": "Created in workshop of Posidonius",
-        "evidence": [
-          "Cicero mentions device made by Posidonius",
-          "Timeframe matches device dating",
-          "Rhodes connection"
-        ],
-        "proponents": ["Some classical historians"],
-        "status": "Possible but speculative"
-      }
-    ],
-    "purpose_theories": [
-      {
-        "theory": "Educational tool",
-        "description": "Used for teaching astronomy and calendar systems",
-        "evidence": [
-          "Detailed operating instructions in inscriptions",
-          "Display designed for demonstration",
-          "Portable size"
-        ],
-        "status": "Widely accepted"
-      },
-      {
-        "theory": "Navigation aid",
-        "description": "Used for celestial navigation",
-        "evidence": "Found on ship; astronomical utility",
-        "status": "Possible secondary function"
-      },
-      {
-        "theory": "Astrological predictions",
-        "description": "Used for casting horoscopes",
-        "evidence": "Planetary positions important for astrology",
-        "status": "Plausible given period's integration of astronomy and astrology"
-      },
-      {
-        "theory": "Prestige object",
-        "description": "Luxury item demonstrating wealth and learning",
-        "evidence": [
-          "High-quality craftsmanship",
-          "Found among luxury goods",
-          "Complex beyond practical necessity"
-        ],
-        "status": "Likely complementary function"
-      }
-    ],
-    "debunked_theories": [
-      {
-        "theory": "Alien technology",
-        "description": "Device too advanced for ancient humans",
-        "status": "Thoroughly debunked",
-        "refutation": "Technology fully consistent with documented Hellenistic capabilities; all functions explained by known ancient astronomy and mechanics"
-      },
-      {
-        "theory": "Lost advanced civilization",
-        "description": "Represents vanished high technology",
-        "status": "Refuted by evidence",
-        "refutation": "Device fits within continuum of Greek technological development; ancient texts describe similar devices"
-      },
-      {
-        "theory": "Modern hoax",
-        "description": "Planted in wreck in 20th century",
-        "status": "Impossible",
-        "refutation": "Corrosion patterns, marine growth, and integration with other 1st century BCE artifacts confirm ancient origin"
-      }
-    ]
+    "paranormal": [],
+    "scientific": [],
+    "skeptical": []
   },
-
-  "cultural_impact": {
-    "academic_significance": [
-      "Revolutionized understanding of ancient technology",
-      "Demonstrated advanced Hellenistic mechanical engineering",
-      "Showed sophisticated astronomical knowledge application",
-      "Inspired reconsideration of ancient technological capabilities"
-    ],
+  "cultural": {
+    "folklore": {
+      "traditions": [],
+      "stories": [],
+      "beliefs": "See README.md for cultural context"
+    },
     "popular_culture": {
-      "literature": [
-        "Referenced in numerous science history books",
-        "Featured in alternative history fiction",
-        "Subject of popular science articles"
-      ],
-      "film_tv": [
-        "Documentaries on ancient technology",
-        "Referenced in \"Indiana Jones\" contexts",
-        "Featured in educational programming"
-      ],
-      "impact": "Widely recognized as most sophisticated mechanical artifact from ancient world; symbol of ancient Greek achievement"
-    },
-    "modern_applications": [
-      "Inspiration for mechanical engineering education",
-      "Subject of citizen science reconstruction projects",
-      "Motivates interdisciplinary research (archaeology, astronomy, engineering)"
-    ]
-  },
-
-  "research": {
-    "researchers": [
-      {
-        "name": "Derek de Solla Price",
-        "affiliation": "Yale University",
-        "contribution": "Pioneering scientific analysis (1951-1974); identified as astronomical computer",
-        "period": "1951-1983"
-      },
-      {
-        "name": "Michael Wright",
-        "affiliation": "Science Museum, London",
-        "contribution": "Created working reconstruction; proposed planetary display",
-        "period": "1990s-present"
-      },
-      {
-        "name": "Tony Freeth",
-        "affiliation": "Antikythera Mechanism Research Project",
-        "contribution": "Led CT scanning project; decoded much of inscription text",
-        "period": "2005-present"
-      },
-      {
-        "name": "Alexander Jones",
-        "affiliation": "New York University",
-        "contribution": "Decipherment of inscriptions; astronomical analysis",
-        "period": "2005-present"
-      },
-      {
-        "name": "James Evans",
-        "affiliation": "University of Puget Sound",
-        "contribution": "Astronomical interpretation; calendar systems analysis",
-        "period": "2000s-present"
-      }
-    ],
-    "institutions": [
-      {
-        "name": "National Archaeological Museum, Athens",
-        "role": "Custodian of artifact; facilitates research access"
-      },
-      {
-        "name": "Antikythera Mechanism Research Project",
-        "role": "International collaboration for comprehensive study",
-        "period": "2005-2012"
-      },
-      {
-        "name": "UCL Mechanical Engineering",
-        "role": "Recent reconstruction work and planetary display research",
-        "period": "2020-present"
-      }
-    ],
-    "ongoing_studies": "Research continues on inscription interpretation, planetary mechanism reconstruction, and manufacturing techniques. High-resolution imaging may reveal additional details."
-  },
-
-  "current_location": {
-    "institution": "National Archaeological Museum of Athens",
-    "address": "44 Patission Street, Athens 10682, Greece",
-    "gallery": "Bronze Collection",
-    "display": "Fragments displayed in dedicated exhibit",
-    "public_access": true,
-    "website": "https://www.namuseum.gr"
-  },
-
-  "sources": [
-    {
-      "id": "price-1974",
-      "type": "book",
-      "title": "Gears from the Greeks: The Antikythera Mechanism—A Calendar Computer from ca. 80 B.C.",
-      "authors": ["Derek J. de Solla Price"],
-      "publication": "Transactions of the American Philosophical Society",
-      "date": "1974",
-      "volume": "64",
-      "issue": "7"
-    },
-    {
-      "id": "freeth-2006",
-      "type": "journal",
-      "title": "Decoding the ancient Greek astronomical calculator known as the Antikythera Mechanism",
-      "authors": ["Tony Freeth", "et al."],
-      "publication": "Nature",
-      "date": "2006",
-      "volume": "444",
-      "pages": "587-591",
-      "doi": "10.1038/nature05357"
-    },
-    {
-      "id": "freeth-2008",
-      "type": "journal",
-      "title": "Calendars with Olympiad display and eclipse prediction on the Antikythera Mechanism",
-      "authors": ["Tony Freeth", "et al."],
-      "publication": "Nature",
-      "date": "2008",
-      "volume": "454",
-      "pages": "614-617",
-      "doi": "10.1038/nature07130"
-    },
-    {
-      "id": "jones-2017",
-      "type": "book",
-      "title": "A Portable Cosmos: Revealing the Antikythera Mechanism, Scientific Wonder of the Ancient World",
-      "authors": ["Alexander Jones"],
-      "publication": "Oxford University Press",
-      "date": "2017",
-      "isbn": "978-0190687380"
+      "literature": [],
+      "film_tv": [],
+      "games": [],
+      "other": []
     }
-  ]
+  },
+  "research": {
+    "researchers": [],
+    "organizations": [],
+    "ongoing_studies": "None documented"
+  },
+  "sources": []
 }
